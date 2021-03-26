@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Password Generator</h1>
+      </header>
+      <div class="card">
+        <div class="card-header">
+          <h2>Generate a Password</h2>
+        </div>
+        <div class="card-body">
+          <textarea
+            readonly
+            id="password"
+            placeholder="Your Secure Password"
+            aria-label="Generated Password"
+          ></textarea>
+        </div>
+        <div class="card-footer">
+          <button id="generate" class="btn">Generate Password</button>
+        </div>
+        <div id="myModal" class="modal"> 
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <br>
+            <h3>Enter a length for your Password and at least one character set</h3>
+            <label for="Password Length"> Password Length</label>
+            <input type="input" id="pwdLength" name="pwdLength"  placeholder="Enter a number between 7 and 128" size="30">
+            <p id ="pId"></p>
+            <br>
+            <label for="lowercase"> Lower case characters</label>
+            <input type="checkbox" id="lowercase" name="lowercase" >
+            <p class ="pCh"></p>
+            <br>  
+            <label for="uppercase"> Upper case characters</label>
+            <input type="checkbox" id="uppercase" name="uppercase">
+            <p class ="pCh"></p>
+            <br>   
+            <label for="specialcharacters">Special Characters</label>
+            <input type="checkbox" id="specialcharacters" name="specialcharacters" >             
+            <p class ="pCh"></p>
+            <br>    
+            <label for="numbers" > Numbers</label>
+            <input type="checkbox" id="numbers" name="numbers">
+            <p class ="pCh"></p>
+            <br>    
+            <button id="submit" class="btn">Submit Selection</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
