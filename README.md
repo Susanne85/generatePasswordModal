@@ -20,7 +20,9 @@ Modal Page allows the user to enter the length of the random password to be gene
 ![Instructions](./assets/images/02-generatePasswordModal.png)
 
 
-![Instructions](./assets/images/03-generatePasswordModal.png)Modal Page allows the user to enter the length of the random password to be generated and the charactersets to include within the one action.
+![Instructions](./assets/images/03-generatePasswordModal.png)
+
+The final pages shows the random generated password and the requested password length.
 
 ![Instructions](./assets/images/04-generatePasswordModal.png)
 Display for including numbers in the generated password.
