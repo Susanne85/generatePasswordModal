@@ -12,6 +12,7 @@ This produces a more random password.
 The link to the deployed application is : https://susanne85.github.io/generatePasswordModal/
 
 **Technologies Utilised**
+
 . HTML and CSS
 . Modal structure
 
@@ -31,8 +32,10 @@ The final pages shows the random generated password and the requested password l
 ![Instructions](./assets/images/04-generatePasswordModal.png)
  
 **Liscense**
+
 . MIT
 
 **Contact information**
+
 Susanne Bilney
-email: ![Contact Information](mailto:xkqk2010@gmail.com)
+email: xkqk2010@gmail.com
