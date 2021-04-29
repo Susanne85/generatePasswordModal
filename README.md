@@ -14,6 +14,7 @@ The link to the deployed application is : https://susanne85.github.io/generatePa
 **Technologies Utilised**
 
 . HTML and CSS
+
 . Modal structure
 
 **Application Display**
